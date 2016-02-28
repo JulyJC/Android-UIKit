@@ -1,15 +1,15 @@
-#Translucent Bar
+##Translucent Bar
 一、引入；Android 4.4 开始引入
 
 二、实现方法
  1、在values、values-v19、values-v21的style.xml都设置一个 Translucent System Bar 风格的Theme
 
 values/style.xml
-{newcode}
+{code}
 <style name="ImageTranslucentTheme" parent="AppTheme">
     <!--在Android 4.4之前的版本上运行，直接跟随系统主题-->
 </style>
-{newcode}
+{code}
 
 values-v19/style.xml
 {newcode}
